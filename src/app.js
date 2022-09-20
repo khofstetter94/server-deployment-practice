@@ -5,7 +5,6 @@ const notFound = require('./error-handlers/404');
 const errorHandler = require('./error-handlers/500');
 const PORT = process.env.PORT || 3002;
 
-// design principle:  singleton
 const app = express();
 
 app.get('/', (req, res, next) => {
