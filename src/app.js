@@ -24,15 +24,3 @@ function start(){
 }
 
 module.exports = { app, start};
-
-
-/**
- * JSDoc example
- * @param {string} name
- * @returns a greeting message
- */
-function greet(name){
-  return `Hello ${name}!`;
-}
-
-greet('Lucky');
